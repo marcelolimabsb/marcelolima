@@ -1,4 +1,8 @@
 ---
+import '../styles/global.css'
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Footer from "../components/Footer.astro";
+import Header from '../components/Header.astro';
 const pageTitle = "Sobre Mim";
 ---
 
@@ -18,9 +22,7 @@ const pageTitle = "Sobre Mim";
       </style>
   </head>
   <body>
-    <a href="/">Home</a>
-	<a href="/about/">About</a>
-	<a href="/blog/">Blog</a>
+    <BaseLayout pageTitle={pageTitle}
     <h1>{pageTitle}</h1>
   <h2>... e meu novo site Astro!</h2>
 
