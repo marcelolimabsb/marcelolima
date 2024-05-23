@@ -31,14 +31,14 @@ html {
   width: 40px;
   height: 5px;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  background-color: #064cff;
 }
 
 .nav-links {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #ff9776;
+  background-color: #ea0808;
   display: none;
   margin: 0;
 }
@@ -50,11 +50,10 @@ html {
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 .nav-links a:hover, a:focus {
-  background-color: #ff9776;
+  background-color: #003ee7;
 }
 
 .expanded {
@@ -78,4 +77,50 @@ html {
   .hamburguer {
     display: none;
   }
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
