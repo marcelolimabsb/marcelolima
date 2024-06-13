@@ -38,7 +38,7 @@ html {
   width: 100%;
   top: 5rem;
   left: 48px;
-  background-color: #ea0808;
+
   display: none;
   margin: 0;
 }
@@ -77,7 +77,7 @@ html {
   .hamburguer {
     display: none;
   }
-
+    
 div.gallery {
   border: 1px solid #ccc;
 }
