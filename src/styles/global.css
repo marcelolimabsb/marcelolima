@@ -133,8 +133,20 @@ clear: both;
   font-family:'Courier New', Courier, monospace;
 }
 
+/*Main Navigation */
+
+.me {
+
+
+  padding: 20px;
+  color: #fff;
+  font-family: "Cabin", Helvetica, Arial, sans-serif;
+  display:flex;
+  flex-direction: column;
+
+}
+
 .intro {
-  display: block;
   background-color: #064cff;
   height: 20%;
   width: 100%;
@@ -143,4 +155,7 @@ clear: both;
   padding: 20px;
   color: #fff;
   font-family: "Cabin", Helvetica, Arial, sans-serif;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid: auto / auto auto auto;
 }
