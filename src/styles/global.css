@@ -15,10 +15,7 @@ body {
   box-sizing: border-box;
 }
 
-h1 {
-  margin: 1rem 0;
-  font-size: 2.5rem;
-}
+
 
 /* estilos da navegação */
 .hamburguer {
@@ -37,8 +34,7 @@ background-color: #064cff;
 .nav-links {
 width: 100%;
 top: 5rem;
-left: 48px;
-
+left: 48px; 
 display: none;
 margin: 0;
 }
@@ -53,8 +49,8 @@ font-weight: bold;
 }
 
 .nav-links a:hover, a:focus {
-background-color: #003ee7;
-}
+  background-color: #ffffff;
+  }
 
 .expanded {
 display: unset;
@@ -78,6 +74,8 @@ display: unset;
   display: none;
 }
   
+
+/* PROJECTS */
 div.gallery {
 border: 1px solid #ccc;
 }
@@ -123,4 +121,18 @@ width: 24.99999%;
 content: "";
 display: table;
 clear: both;
+} 
+}
+
+/* IMAGEM */
+
+.h2 {
+  font-size: 28px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.intro {
+  background-color: #064cff;
+  padding: auto;
+  height: 20%;
 }
