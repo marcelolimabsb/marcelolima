@@ -169,6 +169,71 @@ img {
   height: auto;
 }
 
+/* CARDS*/
+
+
+.container {
+	width: 500px;
+	height: 500px;
+	position: relative;
+	overflow: hidden;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.container img {
+	width: 100%;
+	transition: 1s;
+}
+
+.container:hover img{
+	transform: translateX(100%);
+	
+}
+
+.caption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #064cff;
+	transform: translateX(-100%);
+	transition: 1s;
+}
+
+.container:hover .caption {
+	transform: translateY(0%);
+	transition: 1s;
+}
+
+.caption h1 {
+	text-transform: uppercase;
+	margin: 0;
+}
+.caption:hover{
+	transform: translateY(0%);
+}
+
+.caption p {
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 320px) {
 .nav-links {
   margin-left: 5em;
@@ -187,6 +252,7 @@ img {
 .hamburguer {
   display: none;
 }
+
 
 @media only screen and (max-width: 700px) {
 .responsive {
