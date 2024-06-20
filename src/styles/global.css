@@ -6,9 +6,9 @@ html {
 body {
   margin: 0 auto;
   width: 100%;
-  max-width: 80ch;
-  padding: 1rem;
+  padding: auto;
   line-height: 1.5;
+  font-family: "Cabin", Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -35,7 +35,7 @@ background-color: #064cff;
 width: 100%;
 top: 5rem;
 left: 48px; 
-display: none;
+display: fixed;
 margin: 0;
 }
 
@@ -133,6 +133,9 @@ clear: both;
 
 .intro {
   background-color: #064cff;
-  padding: auto;
   height: 20%;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 20px;
 }
