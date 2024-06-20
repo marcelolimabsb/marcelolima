@@ -3,7 +3,7 @@ import '../styles/global.css'
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Footer from "../components/Footer.astro";
 import Header from '../components/Header.astro';
-const pageTitle = "Sobre Mim";
+const pageTitle = "About";
 ---
 
 <html lang="en">
@@ -16,19 +16,56 @@ const pageTitle = "Sobre Mim";
 
     <style>
         h1 {
-          color: purple;
-          font-size: 4rem;
+          color: rgb(0, 42, 159);
+          font-size: 2rem;
         }
       </style>
   </head>
   <body>
     <BaseLayout pageTitle={pageTitle}
     <h1>{pageTitle}</h1>
-  <h2>... e meu novo site Astro!</h2>
+  
+    <main>
+    <div>
+      <img class="photo-about" src="/src/images/me2.png" alt="photo">
+      <p> Marcelo Lima</p>
+      <h2>Creator of solution for user and thinker new ideias for problems of day by day.</h2>
+      <p>My challenge is to design user-friendly and intuitive interfaces, considering users’ needs and expectations and continually testing to ensure the quality of the experience. Be it in the creation of digital products and services, such as websites, applications and other interactive systems.</p>
+    </div>
 
-  <p>Estou resolvendo o tutorial introdutório do Astro. Esta é a segunda página no meu website, e é a primeira que eu mesmo construí!</p>
+    <div>
+      <h2> My Story</h2>
+      <p> I’m a Brazilian UX/UI designer with over 7 years of work experience. My background in Advertising and Marketing allows me to have a continuous and deep contact with disciplines that are essential for the UX / UI Design area.
 
-  <p>Este site será atualizado enquanto eu completo mais desse tutorial, então continue verificando e veja como minha jornada está indo!</p>
-</body>
+        I do my best to promote the best interaction between user and product in order to promote an experience that shows empathy in everything, and products that are more elaborated and improved that equally please the stakeholders.</p>
+    </div>
+
+    <div> 
+      <h2> Where I’ve Worked</h2>
+      <ul>
+        <li>
+          <p>2022 - 2023</p>
+          <p>Product Designer at Serpros Fundo Multipratocinado </p>
+          <p>2021 - 2022</p>
+          <p>Product Designer at BRBCard</p> 
+          <p> 2022 - 2023 </p>
+          <p>Product Designer at Caixa Seguradora</p>
+          <p>2022 - 2023</p>
+          <p>Product Designer at Sicoob Confederação</p>
+          <p>2022 - 2023</p>
+          <p>Product Designer at Serpros Fundo Multipratocinado</p>
+        </li>
+      </ul>
+
+
+    </div>
+
+    <div>
+      <img class="companys" src="/src/images/logo.png">
+    </div>
+
+
+
+  </main>
   </body>
 </html>
