@@ -6,66 +6,54 @@ import Header from '../components/Header.astro';
 const pageTitle = "About";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} >
-    <title>{pageTitle}</title>
+<BaseLayout pageTitle={pageTitle}>
+  <main>
+      
+         
+      <section class="profile">
+        <figure class="me">
+          <img src="/src/images/me2.png" alt="photo of the man">
+        </figure>
+    
+        <div class="content">
+          <div class="about">
+            <h1>Marcelo Lima</h1>
+            <p>Creator of solutions for users and thinker of new ideas for day-to-day problems.</p>
+            <p>My challenge is to design user-friendly and intuitive interfaces, considering users’ needs and expectations and continually testing to ensure the quality of the experience. Be it in the creation of digital products and services, such as websites, applications, and other interactive systems.</p>
+          </div>
+    
+          <div class="services">
+            <h2>What I Do</h2>
+            <ul>
+              <li>UX/UI Designer</li>
+              <li>Product Designer</li>
+              <li>Strategy Marketing</li>
+              <li>UX Research</li>
+              <li>Design System</li>
+              <li>Prototyping Tools</li>
+              <li>Brand Experience</li>
+              <li>Agile Methodology</li>
+              <li>Brand Strategy and Positioning</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-    <style>
-        h1 {
-          color: rgb(0, 42, 159);
-          font-size: 2rem;
-        }
-      </style>
-  </head>
-  <body>
-    <BaseLayout pageTitle={pageTitle}
-    <h1>{pageTitle}</h1>
-  
-    <main>
-    <div>
-      <img class="photo-about" src="/src/images/me2.png" alt="photo">
-      <p> Marcelo Lima</p>
-      <h2>Creator of solution for user and thinker new ideias for problems of day by day.</h2>
-      <p>My challenge is to design user-friendly and intuitive interfaces, considering users’ needs and expectations and continually testing to ensure the quality of the experience. Be it in the creation of digital products and services, such as websites, applications and other interactive systems.</p>
-    </div>
-
-    <div>
-      <h2> My Story</h2>
-      <p> I’m a Brazilian UX/UI designer with over 7 years of work experience. My background in Advertising and Marketing allows me to have a continuous and deep contact with disciplines that are essential for the UX / UI Design area.
-
-        I do my best to promote the best interaction between user and product in order to promote an experience that shows empathy in everything, and products that are more elaborated and improved that equally please the stakeholders.</p>
-    </div>
-
-    <div> 
-      <h2> Where I’ve Worked</h2>
-      <ul>
-        <li>
-          <p>2022 - 2023</p>
-          <p>Product Designer at Serpros Fundo Multipratocinado </p>
-          <p>2021 - 2022</p>
-          <p>Product Designer at BRBCard</p> 
-          <p> 2022 - 2023 </p>
-          <p>Product Designer at Caixa Seguradora</p>
-          <p>2022 - 2023</p>
-          <p>Product Designer at Sicoob Confederação</p>
-          <p>2022 - 2023</p>
-          <p>Product Designer at Serpros Fundo Multipratocinado</p>
-        </li>
-      </ul>
-
-
-    </div>
-
-    <div>
-      <img class="companys" src="public/images/logo-marcelo.png">
-    </div>
-
-
-
+      <section class="personal-info">
+        <div class="column">
+          <h2>My Story</h2>
+          <p>I’m a Brazilian UX/UI designer with over 7 years of work experience. My background in Advertising and Marketing allows me to have a continuous and deep contact with disciplines that are essential for the UX / UI Design area.</p>
+          <p>I do my best to promote the best interaction between user and product in order to promote an experience that shows empathy in everything, and products that are more elaborated and improved that equally please the stakeholders.</p>
+        </div>
+    
+        <div class="column">
+          <h2>Academic Formation</h2>
+          <ul>
+            <li><strong>2023 - currently</strong><br>Postgraduate in Digital Experience Design | Faculty of Fine Arts of the University of Lisbon | Portugal</li>
+            <li><strong>2016-2018</strong><br>MBA - Postgraduate in Marketing | FGV - Fundação Getúlio Vargas | Brazil</li>
+            <li><strong>2006-2011</strong><br>Bachelor's degree in Advertising and Marketing | IESB University Center | Brazil</li>
+          </ul>
+        </div>
+      </section>
   </main>
-  </body>
-</html>
+</BaseLayout>

@@ -1,274 +1,330 @@
 html {
   background-color: #f1f5f9;
-  font-family: sans-serif;
+  font-family: "work sans", sans-serif;
 }
-
+  
 body {
   margin: 0 auto;
   width: 100%;
-  padding: auto;
+  height: 100%;
+  padding: 1rem;
   line-height: 1.5;
-  font-family: "Cabin", Helvetica, Arial, sans-serif;
-  align-items: center;
-  min-width: 320px;
-
 }
-
+  
 * {
   box-sizing: border-box;
 }
 
-/* estilos da navegação */
-.hamburguer {
-padding-right: 20px;
-cursor: pointer;
-}
-
-.hamburguer .line {
-display: block;
-width: 40px;
-height: 5px;
-margin-bottom: 10px;
-background-color: #064cff;
-}
-
-.nav-links {
-width: 100%;
-top: 5rem;
-left: 48px; 
-display: fixed;
-margin: 0;
-}
-
-.nav-links a {
-display: block;
-text-align: center;
-padding: 10px 0;
-text-decoration: none;
-font-size: 1.2rem;
-font-weight: bold;
-}
-
-.nav-links a:hover, a:focus {
-background-color: #ffffff;
-}
-
-.expanded {
-display: unset;
-}
-
-/*Main Navigation */
-
-.me {
-  padding: 20px;
-  color: #fff;
-  font-family: "Cabin", Helvetica, Arial, sans-serif;
-  display:flex;
-  flex-direction: row;
-
-}
-
-.intro {
-  background-color: #064cff;
-  height: 20%;
-  width: 100%;
-  gap: 1rem;
-  margin-top: 2rem;
-  padding: 20px;
-  color: #fff;
-  font-family: "Cabin", Helvetica, Arial, sans-serif;
+/* Banner Section */
+.banner {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  text-align: center;
 }
 
-/* Figure and image styling */
+.banner h1 {
+  margin-bottom: 20px;
+}
 
-figure {
+.banner .me img {
+  width: 70%; 
+  height: auto; 
+  border-radius: 2%;
+}
+
+/* Intro Section */
+.intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+  background-color: #064cff;
+  padding: 20px;
+  color: white;
+  gap: 30px;
+  text-align: center;
+}
+
+.intro figure {
   margin: 0;
-  display: inline-block;
-  overflow: hidden;
 }
 
-figure img {
-  width: 100%;
-}
-
-figcaption {
-  text-align: center;
+.intro img {
+  width: 200px; 
+  height: auto; 
 }
 
 
-/* PROJECTS */
-div.gallery {
-  border: 1px solid #ccc;
-}
 
-div.gallery:hover {
-  border: 1px solid #777;
-} 
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-  
-* {
-box-sizing: border-box;
-}
-  
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-/* Headings and text styles */
+/*FONT*/
 
 h1 {
-  font-size: 2rem;
-  margin: 8px;
-  padding: 0;
-  color: black;
+  margin: 1rem 0;
+  font-size: 2.5rem;
 }
 
 h2 {
-  font-size: 1.75rem;
-  font-weight: 700;
-  text-align: center;
-  position: relative;
-  padding-bottom: 24px;
-  margin: 0;
-}
-
-h3 {
-  font-size: 0.95rem;
-  margin: 0;
-  text-align: left;
-}
-
-h4 {
-  font-size: 0.875rem;
   font-weight: 400;
-  margin: 0;
-  text-align: left;
+  font-size: 1.75rem; 
 }
 
 p {
-  font-size: 0.80rem;
-  line-height: 20px;
-  margin: 0;
-  font-weight: 200;
+  font-size: 1rem; 
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+/* estilos da navegação */
+
+.hamburguer {
+  padding-right: 20px;
+  cursor: pointer;
 }
 
-/* CARDS*/
-
-
-.container {
-	width: 500px;
-	height: 500px;
-	position: relative;
-	overflow: hidden;
-  gap: 1rem;
-  margin: 2rem;
-}
-
-.container img {
-	width: 100%;
-	transition: 1s;
-}
-
-.container:hover img{
-	transform: translateX(100%);
-	
-}
-
-.caption {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: white;
-	background-color: #064cff;
-	transform: translateX(-100%);
-	transition: 1s;
-}
-
-.container:hover .caption {
-	transform: translateY(0%);
-	transition: 1s;
-}
-
-.caption h1 {
-	text-transform: uppercase;
-	margin: 0;
-}
-.caption:hover{
-	transform: translateY(0%);
-}
-
-.caption p {
-	font-size: 18px;
-	text-transform: capitalize;
-}
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 320px) {
-.nav-links {
-  margin-left: 5em;
+.hamburguer .line {
   display: block;
-  position: static;
-  width: auto;
-  background: none;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 10px;
+  background-color: #064cff;
 }
+
+.nav-links {
+  width: 100%;
+  top: 5rem;
+  left: 48px;
+
+  display: none;
+  margin: 0;
 }
 
 .nav-links a {
-  display: inline-block;
-  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-links a:hover, a:focus {
+  background-color: #003ee7;
+}
+
+.expanded {
+  display: unset;
+}
+
+@media screen and (min-width: 636px) {
+  .nav-links {
+    margin-left: 5em;
+    display: block;
+    position: static;
+    width: auto;
+    background: none;
+} }
+
+.nav-links a {
+    display: inline-block;
+    padding: 15px 20px;
 }
 
 .hamburguer {
-  display: none;
+    display: none;
+}
+
+/* IMAGES*/  
+
+.me {
+  display: flex;
 }
 
 
 @media only screen and (max-width: 700px) {
-.responsive {
-  width: 49.99999%;
-  margin: 6px 0;
-}
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-.responsive {
-  width: 100%;
-}
+  .responsive {
+    width: 100%;
+  }
 }
 
 .clearfix:after {
-content: "";
-display: table;
-clear: both;
-} 
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Projects Section */
+.projects {
+  width: 100%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.projects h1 {
+  font-size: 2rem; /* Tamanho da fonte */
+  margin-bottom: 10px;
+}
+
+.projects p {
+  font-size: 1.25rem; /* Tamanho da fonte */
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.project {
+  width: 300px; 
+  overflow: hidden;
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s; 
+}
+
+.project:hover {
+  transform: scale(1.05); 
+}
+
+.cover-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cover-content {
+  padding: 16px 24px;
+  text-align: left;
+}
+
+.cover-content h2 {
+  margin-top: 0;
+  font-size: 1.5rem; 
+}
+
+.cover-content p {
+  margin: 0;
+  font-size: 1rem; 
+}
+
+/* Profile Section */
+.profile {
+  display: flex;
+  align-items: flex-start;
+  padding: 30px;
+  background-color: #064cff;
+  color: white;
+}
+
+.profile .me {
+  margin-right: 30px;
+}
+
+.profile .me img {
+  width: 500px; /* Definindo uma largura específica */
+  height: auto; /* Mantendo a proporção */
+  border-radius: 2%;
+}
+
+.content {
+  flex: 1; /* Faz com que a div ocupe o restante do espaço */
+}
+
+/* About Section */
+.about {
+  margin-bottom: 30px;
+}
+
+.about h1 {
+  font-size: 2rem; /* Tamanho da fonte */
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 1.25rem; /* Tamanho da fonte */
+  margin-bottom: 10px;
+}
+
+/* Services Section */
+.services {
+  padding: 20px;
+  border-radius: 8px; /* Bordas arredondadas */
+}
+
+.services h1 {
+  font-size: 1rem; /* Tamanho da fonte */
+  margin-bottom: 20px;
+}
+
+.services h2 {
+  font-size: 400; /* Tamanho da fonte */
+  margin-bottom: 20px;
+}
+
+
+.services ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services li {
+  font-size: 1.25rem; /* Tamanho da fonte */
+  margin: 5px 0;
+}
+
+/* Personal info Section */
+.personal-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+
+/* Columns */
+.column {
+  flex: 1; /* As colunas ocupam o mesmo espaço */
+  margin: 0 20px; /* Espaçamento entre as colunas */
+}
+
+.column h2 {
+  font-size: 2rem; /* Tamanho da fonte para os títulos */
+  margin-bottom: 10px;
+}
+
+.column p {
+  font-size: 1.25rem; /* Tamanho da fonte para os parágrafos */
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.column li {
+  font-size: 1.25rem; /* Tamanho da fonte para os itens da lista */
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.column li strong {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}

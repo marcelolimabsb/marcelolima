@@ -3,91 +3,66 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Marcelo Lima - Product Designer";
 ---
 <BaseLayout pageTitle={pageTitle}>
-  
-  <section class="me">
-    <h1> I'm Marcelo Lima a Product Designer based in Lisbon.</h1>
-    <figure class="photo">
-      <img src="images/me2.png" alt="personal photo">
-    </figure>
-  </section>
-
-  <figure class="intro">
-    <img src="images/logo-marcelo.png" alt="logo">
-    <p class="intro"> I am a Designer, with over 8 years of work experience with digital project.</p>
-  </figure>
-
-  <section>
-    <div>
-      <h1> Projects</h1>
-    </div>
-
-
-  </section>
-
-  <section class="projects">
+  <main>
+    <section class="banner">
+      <h1>I'm Marcelo Lima, a Product Designer Based in Lisbon</h1>
+      <figure class="me">
+        <img src="/src/images/me2.png" alt="photo of the man">
+      </figure>
+    </section>
     
-  <div class="container">
-  	<img src="images/capa-1.png">
-  	<div class="caption">
-  		<h1>Nação Brb Fla</h1>
-  		<p>Application for prepaid cards from the Bank of Flamengo</p>
-  	</div>
-  </div>
+    <section class="intro">
+      <figure>
+        <img src="/public/images/logo-marcelo.png" alt="logo of company">
+      </figure>
+      <h2>I'm a Designer with over 8 years of work experience with Digital Projects.</h2>
+    </section>
+    
+    <section class="projects"> 
+      <h1>Projects</h1>
+      <p>Check out some of my recent projects</p>
+  
+      <div class="cards">
+        <article class="project">
+          <a href="#" title="Nação BRB Fla">
+            <div class="cover-image">
+              <img src="/public/images/Capa-1.png" alt="cover of project">
+            </div>
+            <div class="cover-content">
+              <h2>Nação BRB Fla</h2>
+              <p>App for Bank of Flamengo</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="project">
+          <a href="#" title="Project 2">
+            <div class="cover-image">
+              <img src="/public/images/Capa-2.png" alt="cover of project 2">
+            </div>
+            <div class="cover-content">
+              <h2>Serpros</h2>
+              <p>Description for project 2</p>
+            </div>
+          </a>
+        </article>
+        
+        <article class="project">
+          <a href="#" title="Project 3">
+            <div class="cover-image">
+              <img src="/public/images/Capa-3.png" alt="cover of project 3">
+            </div>
+            <div class="cover-content">
+              <h2>Project 3</h2>
+              <p>Description for project 3</p>
+            </div>
+          </a>
+        </article>
+      </div>
+    </section>
 
-  <div class="container">
-  	<img src="images/capa-2.png">
-  	<div class="caption">
-  		<h1>Serpros Fundo Multipatrocinado</h1>
-  		<p>Web site and Digital Campain</p>
-  	</div>
-  </div>
-
-  <div class="container">
-  	<img src="images/capa-3.png">
-  	<div class="caption">
-  		<h1>Dully Store</h1>
-  		<p>Brand creation and e-commerce for the product and devices store</p>
-  	</div>
-  </div>
-
-  </section>
   
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="img_5terre.jpg">
-        <img src="images/img_5terre.jpg" alt="Cinque Terre" width="800" height="400">
-      </a>
-      <div class="desc">Colocar a animação de aparecer texto na imagem</div>
-    </div>
-  </div>
-  
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="img_forest.jpg">
-        <img src="images/img_forest.jpg" alt="Forest" width="800" height="400">
-      </a>
-      <div class="desc">Colocar a animação de aparecer texto na imagem</div>
-    </div>
-  </div>
-  
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="img_lights.jpg">
-        <img src="images/img_lights.jpg" alt="Northern Lights" width="800" height="400">
-      </a>
-      <div class="desc">Colocar a animação de aparecer texto na imagem</div>
-    </div>
-  </div>
-  
-  <div class="responsive">
-    <div class="gallery">
-      <a target="_blank" href="img_mountains.jpg">
-        <img src="images/img_mountains.jpg" alt="Mountains" width="800" height="400">
-      </a>
-      <div class="desc">Colocar a animação de aparecer texto na imagem</div>
-    </div>
-  </div>
   
   <div class="clearfix"></div>
-
+  </main>
 </BaseLayout>
