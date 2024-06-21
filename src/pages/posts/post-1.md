@@ -5,7 +5,7 @@ pubDate: 2024-06-20
 description: 'Portfolio - Marcelo Lima'
 author: 'Marcelo Lima'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    
     alt: 'A logo Marcelo.'
 tags: ["astro", "projeto", "portfolio"]
 ---
