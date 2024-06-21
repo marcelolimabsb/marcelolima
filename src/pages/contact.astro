@@ -2,3 +2,31 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Marcelo Lima - Product Designer";
 ---
+<BaseLayout>
+    <main>
+        <div class="container-form">
+            <h1>Get in touch and let’s talk about digital projects.</h1>
+            <form action="#" method="POST">
+              <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div>
+                <label for="subject">Assunto:</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              <div>
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+
+
+    </main>
+</BaseLayout>

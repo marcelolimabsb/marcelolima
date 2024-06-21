@@ -33,11 +33,11 @@ tags: ["astro", "blogueirando", "aprendendo em público"]
       <div class="image-gallery">
         <!-- Aqui você pode adicionar as imagens do projeto usando <img> dentro de <figure> -->
         <figure>
-          <img src="/public/images/project-image1.jpg" alt="Project Image 1">
+          <img src="public/images/project-image1.jpg" alt="Project Image 1">
           <figcaption>Descrição da imagem 1</figcaption>
         </figure>
         <figure>
-          <img src="/public/images/project-image2.jpg" alt="Project Image 2">
+          <img src="public/images/project-image2.jpg" alt="Project Image 2">
           <figcaption>Descrição da imagem 2</figcaption>
         </figure>
       </div>
