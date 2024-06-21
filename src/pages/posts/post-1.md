@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Project - BRBCard'
-pubDate: 2022-07-01
-description: 'Esta é a primeira postagem do meu novo blog Astro.'
-author: 'Aluno de Astro'
+pubDate: 2024-06-20
+description: 'Portfolio - Marcelo Lima'
+author: 'Marcelo Lima'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'A logo completa do Astro.'
-tags: ["astro", "blogueirando", "aprendendo em público"]
+    alt: 'A logo Marcelo.'
+tags: ["astro", "projeto", "portfolio"]
 ---
 <main>
 <section class="project-details">
@@ -33,11 +33,11 @@ tags: ["astro", "blogueirando", "aprendendo em público"]
       <div class="image-gallery">
         <!-- Aqui você pode adicionar as imagens do projeto usando <img> dentro de <figure> -->
         <figure>
-          <img src="public/images/project-image1.jpg" alt="Project Image 1">
+          <img src="public/images/capa-1.png" alt="Project Image 1">
           <figcaption>Descrição da imagem 1</figcaption>
         </figure>
         <figure>
-          <img src="public/images/project-image2.jpg" alt="Project Image 2">
+          <img src="/public/images/project-image2.jpg" alt="Project Image 2">
           <figcaption>Descrição da imagem 2</figcaption>
         </figure>
       </div>

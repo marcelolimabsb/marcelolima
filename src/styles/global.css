@@ -331,8 +331,6 @@ p {
 
 /*FORMS*/
 
-/* Estilos gerais */
-
 .container-form {
   max-width: 800px;
   margin: 0 auto;
@@ -341,7 +339,6 @@ p {
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 
 form {
   display: grid;
@@ -378,4 +375,19 @@ button {
 button:hover {
   background-color: #0033b8;
 }
+
+.btn {
+  background-color: white;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0033b8;
+}
+
 
