@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'Minha Primeira Postagem no Blog'
+title: 'Project - BRBCard'
 pubDate: 2022-07-01
 description: 'Esta é a primeira postagem do meu novo blog Astro.'
 author: 'Aluno de Astro'
@@ -9,20 +9,37 @@ image:
     alt: 'A logo completa do Astro.'
 tags: ["astro", "blogueirando", "aprendendo em público"]
 ---
-# Minha Primeira Postagem no Blog
+<main>
+<section class="project-details">
+    <div class="column">
+      <h2>Project Overview</h2>
+      <p>Approve the new campaign to increase the Pension Plan’s variable contribution, with the objective of considerably increasing the plan’s contribution volume and, consequently, improving the level of participants’ future retirement benefits, as well as the collection of the SERPROS administrative contribution.</p>
+    </div>
 
-Publicado em: 2022-07-01
+ <div class="column">
+      <h2>Scope</h2>
+      <ul>
+        <li>Wireframes</li>
+        <li>Flowcharts</li>
+        <li>UX Research</li>
+        <li>User Interface</li>
+        <li>Prototyping</li>
+      </ul>
+      <p><strong>My role:</strong> Product Design</p>
+    </div>
 
-Bem-vindo ao meu _novo blog_ sobre aprendendo Astro! Aqui, eu irei compartilhar minha jornada de aprendizado enquanto eu construo um novo website.
-
-## O que eu realizei
-
-1. **Instalando Astro**: Primeiro, eu criei um novo projeto Astro e configurei minhas contas online.
-
-2. **Fazendo Páginas**: E então eu aprendi como fazer páginas criando novos arquivos `.astro` e os colocando na pasta `src/pages/`.
-
-3. **Fazendo Postagens no Blog**: Esta é minha primeira postagem no blog! Eu agora tenho páginas Astro e postagens em Markdown!
-
-## O que vem a seguir
-
-Eu irei completar o tutorial do Astro, e então continuarei adicionando mais postagens. Olhe por aqui para o que vem a frente.
+<section class="project-images">
+      <h2>Project Images</h2>
+      <div class="image-gallery">
+        <!-- Aqui você pode adicionar as imagens do projeto usando <img> dentro de <figure> -->
+        <figure>
+          <img src="/public/images/project-image1.jpg" alt="Project Image 1">
+          <figcaption>Descrição da imagem 1</figcaption>
+        </figure>
+        <figure>
+          <img src="/public/images/project-image2.jpg" alt="Project Image 2">
+          <figcaption>Descrição da imagem 2</figcaption>
+        </figure>
+      </div>
+</section>
+</main>
