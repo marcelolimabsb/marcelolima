@@ -33,12 +33,12 @@ tags: ["astro", "aprendendo em público", "contratempos", "comunidade"]
       <div class="image-gallery">
         <!-- Aqui você pode adicionar as imagens do projeto usando <img> dentro de <figure> -->
         <figure>
-          <img src="public/images/capa-1.png" alt="Project Image 1">
-          <figcaption>Descrição da imagem 1</figcaption>
+          <img src="/images/dully-1.jpg" alt="Project Image 1">
+          <figcaption>E-commerce</figcaption>
         </figure>
         <figure>
-          <img src="/public/images/project-image2.jpg" alt="Project Image 2">
-          <figcaption>Descrição da imagem 2</figcaption>
+          <img src="/images/dully-2.jpg" alt="Project Image 2">
+          <figcaption>E-commerce</figcaption>
         </figure>
       </div>
 </section>

@@ -33,11 +33,11 @@ tags: ["astro", "projeto", "portfolio"]
       <div class="image-gallery">
         <!-- Aqui você pode adicionar as imagens do projeto usando <img> dentro de <figure> -->
         <figure>
-          <img src="public/images/fla-1.jpg" alt="Project Image 1">
+          <img src="/images/fla-1.jpg" alt="Project Image 1">
           <figcaption>App of Bank Flamengo</figcaption>
         </figure>
         <figure>
-          <img src="/public/images/fla-2.jpg" alt="Project Image 2">
+          <img src="/images/fla-2.jpg" alt="Project Image 2">
           <figcaption>App of Bank Flamengo</figcaption>
         </figure>
       </div>

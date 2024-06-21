@@ -33,19 +33,19 @@ tags: ["astro", "blogueirando", "aprendendo em público", "sucessos"]
       <div class="image-gallery">
         <!-- Aqui você pode adicionar as imagens do projeto usando <img> dentro de <figure> -->
         <figure>
-          <img src="/public/images/serpos-1.jpg" alt="Project Image 1">
+          <img src="/images/serpos-1.jpg" alt="Project Image 1">
           <figcaption>website</figcaption>
         </figure>
         <figure>
-          <img src="/public/images/serpros-2.jpg" alt="Project Image 2">
+          <img src="/images/serpros-2.jpg" alt="Project Image 2">
           <figcaption>Website</figcaption>
         </figure>
          <figure>
-          <img src="/public/images/serpros-3.jpg" alt="Project Image 3">
+          <img src="images/serpros-3.jpg" alt="Project Image 3">
           <figcaption>Website</figcaption>
         </figure>
          <figure>
-          <img src="/public/images/serpros-4.jpg" alt="Project Image 4">
+          <img src="/images/serpros-4.jpg" alt="Project Image 4">
           <figcaption>Website</figcaption>
         </figure>
       </div>
