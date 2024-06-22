@@ -41,12 +41,12 @@ tags: ["astro", "blogueirando", "aprendendo em público", "sucessos"]
           <figcaption>Website</figcaption>
         </figure>
          <figure>
-          <img src="images/serpros-3.jpg" alt="Project Image 3">
-          <figcaption>Website</figcaption>
+          <img src="/images/serpros-3.jpg" alt="Project Image 3">
+          <figcaption>Folder</figcaption>
         </figure>
          <figure>
           <img src="/images/serpros-4.jpg" alt="Project Image 4">
-          <figcaption>Website</figcaption>
+          <figcaption>Folder</figcaption>
         </figure>
       </div>
 </section>
