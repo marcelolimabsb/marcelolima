@@ -80,6 +80,7 @@ p {
 .hamburguer {
   padding-right: 20px;
   cursor: pointer;
+  display: none;
 }
 
 .hamburguer .line {
@@ -118,16 +119,16 @@ p {
 
 @media screen and (min-width: 636px) {
   .nav-links {
-    margin-left: 5em;
-    display: block;
-    position: static;
-    width: auto;
-    background: none;
+  margin-left: 5em;
+  display: block;
+  position: static;
+  width: auto;
+  background: none;
 } }
 
 .nav-links a {
-    display: inline-block;
-    padding: 15px 20px;
+  display: inline-block;
+  padding: 15px 20px;
 }
 
 
